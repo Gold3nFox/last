@@ -1,6 +1,6 @@
 package editoR;
 
-import ERFAN.Panel.MarketPanel;
+import ERFAN.Panel.portPanel;
 import ERFAN.Panel.WorkerPanel;
 import editoR.unoRedo.Arrangement;
 import editoR.unoRedo.TerrainPlacedEvent;
@@ -35,7 +35,7 @@ public class Editor implements MouseDragListener, MousePressListener
     private CanvasPainter canvasPainter;
     private CanvasInterface canvasInterface;
     private WorkerPanel wp = null;
-    private MarketPanel mp = null;
+    private portPanel mp = null;
 
     private int[][][] neighbors8 = { {{-1, -1}, {-1, 1}, {0, -1}, {0, -2}, {1, 0}, {0, 2}, {0, 1}, {-1, 0}} , {{1, -1}, {1, 1}, {0, -1}, {0, -2}, {1, 0}, {0, 2}, {0, 1}, {-1,0}} };
     private int[][][] neighbors4 = { {{-1, -1}, {0, -1}, {0, 1}, {-1, 1}} , {{0, -1}, {1, -1}, {1, 1}, {0, 1}}};

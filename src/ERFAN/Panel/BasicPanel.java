@@ -65,14 +65,14 @@ public class BasicPanel extends JPanel{
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
-        frame.setLayout(null);
-        frame.setSize(1000,1000);
-//        BasicPanel panel = new BasicPanel(980,300,0,700,50,100,"bulding");
-        MarketPanel mp = new MarketPanel(350,100,0,200,50,100,"lol");
-        frame.add(mp);
-//        frame.add(panel);
-        frame.setVisible(true);
+//        JFrame frame = new JFrame();
+//        frame.setLayout(null);
+//        frame.setSize(1000,1000);
+////        BasicPanel panel = new BasicPanel(980,300,0,700,50,100,"bulding");
+////        portPanel mp = new portPanel(350,100,0,200,50,100,"lol");
+//        frame.add(mp);
+////        frame.add(panel);
+//        frame.setVisible(true);
     }
 
     // getters and setters :

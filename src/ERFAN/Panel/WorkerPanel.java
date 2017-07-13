@@ -16,7 +16,7 @@ public class WorkerPanel extends BasicPanel
 {
 
     private int numberOfButtons = 2;
-    private static String[] buttonFunctions = {"Builder","Soldier","build","kill"};
+    private static String[] buttonFunctions = {"Builder","Soldier"};
     private JButton[] buttons;
 
     private int x;

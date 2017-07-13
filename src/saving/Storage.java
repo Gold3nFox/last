@@ -5,6 +5,8 @@ import mainFrame.Canvas;
 import mainFrame.GameFrame;
 import mainFrame.MainFrame;
 import map.Map;
+import map.building.Building;
+import map.resource.Resource;
 import statusPanel.miniMap.MiniMap;
 
 import javax.swing.*;
@@ -118,6 +120,25 @@ public class Storage extends JPanel
 
     public void save() throws IOException
     {
+        MapEditorSave mapEditorSave = new MapEditorSave(map.getWidthCoord(),map.getHeightCoord());
+        for (int i = 0 ; i < map.getWidthCoord() ; i ++)
+            for (int j = 0 ; j < map.getHeightCoord() ; j ++)
+            {
+                mapEditorSave.setTerrainTypes(i,j,map.getTile(i,j).getTerrainType().getIndex());
+                if (map.getTile(i,j).getFiller() instanceof Building)
+                    mapEditorSave.setBuildingTypes(i,j,((Building) map.getTile(i,j).getFiller()).getBuildingType().getIndex());
+                if (map.getTile(i,j).getFiller() instanceof Resource)
+                    mapEditorSave.setResourceTypes(i,j,((Resource) map.getTile(i,j).getFiller()).getResourceType().getIndex());
+            }
+
+        for (int i = 0 ; i < map.getWidthCoord() ; i ++)
+            for (int j = 0 ; j < map.getHeightCoord() ; j ++) {
+                System.out.println(mapEditorSave.buildingTypes[i][j]);
+                System.out.println(mapEditorSave.resourceTypes[i][j]);
+                System.out.println(mapEditorSave.terrainTypes[i][j]);
+            }
+
+
         final JFileChooser fileDialog = new JFileChooser(System.getProperty("user.dir"));
         fileDialog.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         fileDialog.showSaveDialog(mainframe);
