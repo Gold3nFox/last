@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e0d437-9a80-4592-98c8-c3c9ec33b873" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ERFAN/Panel/MarketPanel.java" afterPath="$PROJECT_DIR$/src/ERFAN/Panel/portPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ERFAN/Panel/BasicPanel.java" afterPath="$PROJECT_DIR$/src/ERFAN/Panel/BasicPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ERFAN/Panel/Tester.java" afterPath="$PROJECT_DIR$/src/ERFAN/Panel/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ERFAN/Panel/WorkerPanel.java" afterPath="$PROJECT_DIR$/src/ERFAN/Panel/WorkerPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/editoR/Editor.java" afterPath="$PROJECT_DIR$/src/editoR/Editor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/map/building/BuildingType.java" afterPath="$PROJECT_DIR$/src/map/building/BuildingType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/map/resource/ResourceType.java" afterPath="$PROJECT_DIR$/src/map/resource/ResourceType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/saving/Storage.java" afterPath="$PROJECT_DIR$/src/saving/Storage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,11 +137,13 @@
       <file leaf-file-name="BuildingType.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/map/building/BuildingType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="18">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#1181#1182#0" expanded="true" />
                 <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,7 +238,9 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -361,7 +357,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="project.structure.last.edited" value="Project" />
@@ -706,6 +702,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c0e0d437-9a80-4592-98c8-c3c9ec33b873" name="Default" comment="" />
@@ -714,6 +713,21 @@
       <option name="presentableId" value="Default" />
       <updated>1495873020459</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;testing2&quot;">
+      <created>1499956632595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499956632595</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;testing2&quot;">
+      <created>1499956731242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499956731243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -791,6 +805,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;testing2&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;testing2&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1272,11 +1290,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/building/BuildingType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="18">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
             <element signature="e#1181#1182#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
           </folding>
         </state>
       </provider>
